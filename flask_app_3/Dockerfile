@@ -5,5 +5,3 @@ COPY hello.py /
 ENV FLASK_APP=hello
 ENTRYPOINT [ "python3" ]
 CMD [ "hello.py" ]
-#EXPOSE 5003
-#CMD flask run --host 0.0.0.0 --port 5003
